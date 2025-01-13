@@ -507,9 +507,9 @@ class TestImpl:
 
 def main():
     sol=TestImpl()
-    passwords="tddf4,ffskA,Abcd1@,eAww1$544433,3d4,3,2,4,,f,ffd$$$dAf1"
-    result=sol.validatePasswords(passwords)
-    print(result)
+    password="gilad"
+    sol.validatePasswords(password)
+
 
 
 
